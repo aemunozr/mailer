@@ -1,0 +1,22 @@
+# Forzar finales de línea LF para portabilidad (desarrollo en Windows, despliegue en Linux)
+* text=auto eol=lf
+
+# Archivos de texto del proyecto: siempre LF
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Archivos binarios: sin normalización
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary

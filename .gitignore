@@ -1,0 +1,26 @@
+# Secretos de configuración — NUNCA versionar
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Herramientas de prueba / cobertura
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# IDE / editores
+.vscode/
+.idea/

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "kiro-powers-marketplace": {
+      "url": "http://127.0.0.1:1700/sse",
+      "headers": {
+        "x-kiro-powers-token": "562d8fd8ccfe29de9766af342ded8416bd68edea488280ae69971a47fb08ee1f"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "list_powers",
+        "list_extensions",
+        "get_power_detail",
+        "get_versions"
+      ]
+    }
+  }
+}
