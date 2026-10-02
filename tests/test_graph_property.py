@@ -24,18 +24,27 @@ from hypothesis import strategies as st
 
 from graph_mailer.graph import send_via_graph
 
-# El ``sender_mailbox`` se incrusta en el PATH del endpoint; se restringe a
-# caracteres de buzón razonables (sin ``/``, ``?``, ``#`` ni espacios) para que
-# la URL resultante sea determinista y comparable.
-_mailboxes = st.text(
+# El ``sender_mailbox`` se incrusta en el PATH del endpoint. Un buzón real es
+# una dirección de correo ``local@dominio``; se genera con esa forma para
+# mantenernos dentro del espacio de entrada válido. Se evitan segmentos de ruta
+# que ``urllib3`` normalizaría (p. ej. un ``.`` o ``..`` suelto), ya que esos no
+# son buzones válidos y falsearían la propiedad por un artefacto de la URL, no
+# por la lógica del Graph_Client.
+_mailbox_part = st.text(
     alphabet=st.characters(
         min_codepoint=48,
         max_codepoint=122,
         whitelist_categories=("Lu", "Ll", "Nd"),
-        whitelist_characters="-_.@",
+        whitelist_characters="-_",
     ),
     min_size=1,
-    max_size=40,
+    max_size=20,
+)
+_mailboxes = st.builds(
+    lambda local, domain, tld: f"{local}@{domain}.{tld}",
+    _mailbox_part,
+    _mailbox_part,
+    _mailbox_part,
 )
 
 # subject/body/to admiten un amplio rango de texto imprimible (viajan en JSON).

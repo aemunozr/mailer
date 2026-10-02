@@ -99,6 +99,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790879148288
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946920719
       }
     ],
     "4.1 Crear `graph_mailer/token.py` con `TokenResult` y `fetch_token`": [
@@ -116,6 +121,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790879148567
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946929873
       }
     ],
     "4.2 Escribir property test de solicitud de token bien formada": [
@@ -128,6 +138,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878938456
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946930277
       }
     ],
     "5.1 Crear `graph_mailer/graph.py` con `GraphResponse` y `send_via_graph`": [
@@ -145,6 +160,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790879148421
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946930124
       }
     ],
     "5.2 Escribir property test de solicitud sendMail bien formada": [
@@ -157,6 +177,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878939869
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946930401
       }
     ],
     "6. Checkpoint - Verificar clientes base": [
@@ -169,6 +194,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940046
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946939592
       }
     ],
     "7.1 Crear `graph_mailer/mailer.py` con `SendResult` y `send_mail`": [
@@ -181,6 +211,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940195
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946940471
       }
     ],
     "7.2 Exportar API pública desde `graph_mailer/__init__.py`": [
@@ -193,6 +228,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940355
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946940967
       }
     ],
     "7.3 Escribir unit test de éxito de send_mail": [
@@ -205,6 +245,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940496
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946941111
       }
     ],
     "7.4 Escribir property test de no exposición de secretos en el módulo": [
@@ -217,6 +262,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940653
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946941277
       }
     ],
     "8.1 Crear `test_send_email.py`": [
@@ -229,6 +279,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940792
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946949830
       }
     ],
     "8.2 Escribir unit tests de diagnóstico del CLI": [
@@ -241,6 +296,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878940927
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946950953
       }
     ],
     "8.3 Escribir property test de status y Correlation_Id en la salida del CLI": [
@@ -253,6 +313,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878941065
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946951346
       }
     ],
     "8.4 Escribir property test de no exposición de secretos en el CLI": [
@@ -265,6 +330,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878941217
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946951220
       }
     ],
     "8.5 Escribir tests de contenido anti-phishing del CLI": [
@@ -277,6 +347,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878941331
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946951431
       }
     ],
     "9.1 Escribir smoke/static tests": [
@@ -289,6 +364,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878941446
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946957535
       }
     ],
     "10. Checkpoint final - Verificar integración completa": [
@@ -301,6 +381,11 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878941583
+      },
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946962066
       }
     ],
     "2. Implementar jerarquía de errores del dominio": [
@@ -308,6 +393,20 @@
         "executionId": "77f2bd54-8954-41f1-a0f2-904fe4790ec1",
         "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
         "timestamp": 1790878948520
+      }
+    ],
+    "4. Implementar Token_Client": [
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946930529
+      }
+    ],
+    "9. Smoke / static checks de contrato y seguridad": [
+      {
+        "executionId": "c3a9d64b-88fc-427c-9bb2-e02020a77ff1",
+        "chatSessionId": "sess_5a2312ad-947b-482d-8222-76f016967b16",
+        "timestamp": 1790946957746
       }
     ]
   }
